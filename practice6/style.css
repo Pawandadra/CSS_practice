@@ -1,0 +1,14 @@
+.padding
+{
+  padding : 20px;
+  /* padding : 20px 30px 15px 20px;  u can set padding on indvidual sides by using this syntax padding: top right bottom left*/ 
+}
+.margin{
+    margin :  20px;
+    /* margin : 20px 30px 15px 20px;  u can set margin on indvidual sides by using this syntax margin: top right bottom left*/
+}
+.borderandback{
+    border : 2px, solid, rgb(0, 0, 0);
+    background-color: rgba(185, 118, 40, 0.637);
+    border-radius: 10px;
+}
