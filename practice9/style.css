@@ -1,0 +1,28 @@
+.para {
+    margin: 20px;
+
+}
+
+#para1,
+#para2,
+#para3 {
+    display: block;
+    border: 2px, solid, green;
+
+}
+
+#para4,
+#para5,
+#para6 {
+    display: inline;
+    border: 2px, solid, green;
+
+}
+
+#para7,
+#para8,
+#para9 {
+    display: inline-block;
+    border: 2px, solid, green;
+
+}
