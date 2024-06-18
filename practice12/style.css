@@ -1,0 +1,48 @@
+.container{
+    border : 2px solid rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    
+    /* Flex properties for flex container  */
+
+    flex-direction: row; /* This is default value */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap; /* U can define flex-direction and flex-wrap in just one line using this syntax */
+
+    /* justify-content: center; => horizontally align items to center */
+    /* justify-content: space-between; => gives equal space between all items */ 
+    justify-content: space-evenly; /* gives equal space between all items as well as container borders */
+    /* justify-content: space-around; => gives equal space around each item  */
+
+    /* align-items: center; => vertically align items to center */
+    /* align-items: flex-start; => align items at starting of the container.this is default value */
+    /* align-items: flex-end; => align items at the end of the container  */
+    /* align-items: stretch; => make eve spaces in responsive design  */
+}
+
+/* flex properties for flex items */
+#box1{
+    order : 1; /*the item with highest order will be placed at end */
+    flex-grow: 1; /* it will expand according to avaliable space */
+}
+#box2{
+    order : 2;
+    flex-basis: 300px; /*it will control width when flex-direction is set to row */
+    /*it will control height when flex-direction is set to column*/
+    
+    align-self: center; /* it will align item to center */
+}
+
+.box{
+    background-color: cyan;
+    border: 2px solid red;
+    margin: 10px;
+    padding : 5px; 
+    height: 200px;
+    width: 200px;
+}
